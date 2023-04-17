@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import UseLayoutHook from './components/UseLayout/UseLayoutHook';
 import UseReduceHook from './components/UseReduce/UseReduceHook';
 import UseRefHook from './components/UseRef/UseRefHook';
 import UseStateHook from './components/UseState/UseStateHook';
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       {/* <UseStateHook/>
       <UseReduceHook/> */}
-      <UseContextHook/>
+      <UseLayoutHook/>
+      {/* <UseContextHook/> */}
       {/* <UseRefHook/> */}
     </div>
     </ThemeContext>
